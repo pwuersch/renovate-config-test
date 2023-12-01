@@ -1,23 +1,23 @@
 full:
-  image: node:hydrogen@sha256:e62671b4e91dcaf9f2cdb7b901aef948946b53ea642dbcba22779f1c602d2f2b
+  image: node:iron@sha256:b41c3eccd3c2404464bdbe37f6ee28fc832b2d99b10caeaa38b250a9b9d601e8
 
 full_numerical:
-  image: node:18@sha256:e62671b4e91dcaf9f2cdb7b901aef948946b53ea642dbcba22779f1c602d2f2b
+  image: node:20@sha256:b41c3eccd3c2404464bdbe37f6ee28fc832b2d99b10caeaa38b250a9b9d601e8
 
 
 slim:
-  image: node:hydrogen-slim@sha256:caea82ddba051b3f8157bf6d12c732d6f232b56af0dcefd4b51d8d9f5196e9dd
+  image: node:iron-slim@sha256:363a50faa3a561618775c1bab18dae9b4d0910a28f249bf8b72c0251c83791ff
 
 slim_numerical:
-  image: node:18-slim@sha256:caea82ddba051b3f8157bf6d12c732d6f232b56af0dcefd4b51d8d9f5196e9dd
+  image: node:20-slim@sha256:363a50faa3a561618775c1bab18dae9b4d0910a28f249bf8b72c0251c83791ff
 
 
 3-part:
-  image: node:hydrogen-bookworm-slim@sha256:caea82ddba051b3f8157bf6d12c732d6f232b56af0dcefd4b51d8d9f5196e9dd
+  image: node:iron-bookworm-slim@sha256:363a50faa3a561618775c1bab18dae9b4d0910a28f249bf8b72c0251c83791ff
 
 3-part_numerical:
-  image: node:18-bookworm-slim@sha256:caea82ddba051b3f8157bf6d12c732d6f232b56af0dcefd4b51d8d9f5196e9dd
+  image: node:20-bookworm-slim@sha256:363a50faa3a561618775c1bab18dae9b4d0910a28f249bf8b72c0251c83791ff
 
 
 more-specific-version:
-  image: node:18.18@sha256:e62671b4e91dcaf9f2cdb7b901aef948946b53ea642dbcba22779f1c602d2f2b
+  image: node:20.10@sha256:b41c3eccd3c2404464bdbe37f6ee28fc832b2d99b10caeaa38b250a9b9d601e8
